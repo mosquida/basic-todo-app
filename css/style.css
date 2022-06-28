@@ -1,0 +1,51 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200
+}
+
+ul {
+  list-style-type: none
+}
+
+.container {
+  display: flex;
+  justify-content: center
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.taskname {
+  font-weight: 400;
+}
+
+.taskdate {
+  font-size: 1.3rem;
+}
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+li {
+  padding-bottom: 1.5rem;
+}
+
+input {
+  width: 100%;
+}
+
+.isDone {
+  text-decoration: line-through;
+}

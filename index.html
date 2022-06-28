@@ -4,26 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UsA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Todo App</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   
   <div class="container">
-    
-    <div class="header">
-      <input type="text" name="" id="taskInput">
-      <button onclick="addTask()">asas</button>
+    <div>
+      <div class="header">
+        <input type="text" name="" id="taskInput" placeholder="What's on your mind?" maxlength="30">
+        <button onclick="addTask()">Add</button>
+      </div>
+      
+  
+      <h5>My Tasks</h5>
+      <ul id="taskOutlet">
+  
+      </ul>
     </div>
     
-
-    <p>My Tasks</p>
-    <ul id="taskOutlet">
-
-    </ul>
   </div>
 
 
 
-  <script src="/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
